@@ -1,0 +1,36 @@
+.center {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    margin-top: 2px;
+  }
+
+.textblock {
+    /* position: relative; */
+    height: 600px;
+    margin-top: 100px;
+    line-height: 50px;
+    font-size: 18px;
+    /* text-align: center; */
+    /* background-color: white; */
+
+  }
+
+  .madeblock {
+    /* position: relative; */
+    background-color: grey;
+    height: 300px;
+    margin-top: 10px;
+    /* line-height: 300px; */
+    font-size: 30px;
+    text-align: center;
+    
+    /* text-align: center; */
+    /* background-color: white; */
+
+  }
+
+.center .background {
+    background-color: grey;
+}  
