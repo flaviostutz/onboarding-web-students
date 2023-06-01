@@ -11,57 +11,42 @@
   <body style="background-color: black;">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
     <div style="background-color: black;">
     <div class="container container-fluid" style="height:1000px; width:800px; background-color: black;">
       <div class="row" style="background-color: white; margin-top:250px; ">
 <h1 class="bigTitle" style="text-align: center; color:rgb(56, 172, 56);font-size: 50px; margin-top: -4px;">GeeksforGeeks</h1>
 <h3 class="bigTitle" style="text-align: center; color:black; font-size: 30px; margin-top: -1px;">Stacked form</h3>
 <div class="text-muted" style="margin-left:25px; width:760px;">
-    <div class="form-outline">
-        <label class="form-label" for="form12" style="font-weight: normal; font-size: 16px;">First Name:</label>
-        <input style="height: 40px;" type="text" placeholder="Enter First Name" id="form12" class="form-control" />
-      </div>
+  <form >
+    <div class="form-outline" style="margin-top: 20px">
+      <label class="form-label" for="form12" style="font-weight: normal; font-size: 16px;">First Name:</label>
+      <input style="height: 40px;" type="text" placeholder="Enter Last Name" id="form12" class="form-control" name="firstName" required/>
+    </div>
       <div class="form-outline" style="margin-top: 20px">
         <label class="form-label" for="form12" style="font-weight: normal; font-size: 16px;">Last Name:</label>
-        <input style="height: 40px;" type="text" placeholder="Enter Last Name" id="form12" class="form-control" />
+        <input style="height: 40px;" type="text" placeholder="Enter Last Name" id="form12" class="form-control" name="lastName" required/>
       </div>
       <div class="form-outline" style="margin-top: 20px">
         <label class="form-label" for="form12" style="font-weight: normal; font-size: 16px;">Email Id:</label>
-        <input style="height: 40px;" type="text" placeholder="Enter Email Id" id="form12" class="form-control" />
+        <input style="height: 40px;" type="text" placeholder="Enter Email Id" id="form12" class="form-control" required/>
       </div>
       <div class="form-outline" style="margin-top: 20px">
         <label class="form-label" for="form12" style="font-weight: normal; font-size: 16px;">Contact No:</label>
-        <input style="height: 40px;" type="text" placeholder="Enter Contact Number" id="form12" class="form-control" />
+        <input style="height: 40px;" type="text" placeholder="Enter Contact Number" id="form12" class="form-control" required/>
       </div>
       <div class="form-check" style="margin-top: 20px; margin-left: 2px;">
         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
         <label class="form-check-label" for="flexCheckDefault" style="margin-left: 7px; font-weight: normal; font-size: 17px;">Remember Me</label>
       </div>
-</div>
-<div class="container">
-    <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" style="font-weight: normal; margin:25px; margin-left: 12px; background-color: rgb(69, 163, 69); color:rgb(55, 52, 52)">Submit</button>
-  
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">
-      
-        <!-- Modal content-->
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-          <div class="modal-body">
-            <p>Almost there, but we have no server yet!</p>
-          </div>
+    </div>
+    <div>
+        <button class="btn btn-primary" type="submit"
+        style="font-weight: normal; margin:25px; margin-left: 25px; background-color: rgb(69, 163, 69); color:rgb(55, 52, 52)">Submit</button>
         </div>
-      </div>
-    </div>
-  </div>
+    </form>
 </div>
 </div>
-    </div>
-</div>  
     </div>
   </body>
 </html>
