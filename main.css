@@ -102,3 +102,32 @@ body {
   font-size: 20px;
   line-height: 2;
 }
+
+/* Hidden Page */
+.hidden-body{
+  background-color: rgb(14, 14, 14);
+  margin: 0;
+  height: 100%;
+}
+
+.hidden-page {
+  display: block;
+  margin: auto;
+  cursor: zoom-in;
+  background-color: hsl(0, 0%, 90%);
+  transition: background-color 300ms;
+  width: 738px;
+  aspect-ratio: auto 738 / 788;
+  height: 788px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+.zoomed {
+  width: 992px;
+  height: 1058px;
+  aspect-ratio: auto 992 / 1058;
+  display: block;
+  margin: auto;
+}
+
