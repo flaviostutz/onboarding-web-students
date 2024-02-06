@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+}
+/* First Section */
+
+.first-section{
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+  height: 480px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.shark-img {
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid #FEDE00;
+}
+
+.shark-title {
+  font-size: 100px;
+  color: white;
+  margin: 10px;
+}
+
+.first-paragraph {
+  font-size: 30px;
+  color: white;
+}
+
+.second-paragraph {
+  font-size: 20px;
+  color: #1F9AFE;
+}
+
+/* Second Section */
+
+.large-photo {
+  height: 600px;
+  margin: 100px;
+  float: left;
+}
+
+.second-section {
+  height: 600px;
+  margin: 100px;
+}
+
+.presentation {
+  line-height: 2;
+  font-size: 20px;
+}
+
+.email-me{
+  line-height: 2;
+  font-size: 20px;
+}
+
+/* Footer */
+
+.footer {
+  height: auto;
+  background-color: #F7C201;
+}
+
+.text-footer {
+  color: white;
+  padding: 40px;
+  margin: 0;
+  text-align: center;
+}
+
+/* About Page */
+
+.about-background {
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+  height: 720px;
+}
+
+.about-info {
+  background-color: white;
+  height: 400px;
+  width: 800px;
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  padding: 40px;
+}
+
+.about-p-title {
+  font-size: 30px;
+  text-align: center;
+}
+
+.p-description{
+  font-size: 20px;
+  line-height: 2;
+}
+
+.img-credits {
+  font-size: 20px;
+  line-height: 2;
+}
