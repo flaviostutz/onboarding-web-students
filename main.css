@@ -103,7 +103,7 @@ body {
   line-height: 2;
 }
 
-/* Hidden Page */
+/* /hidden-page */
 .hidden-body{
   background-color: rgb(14, 14, 14);
   margin: 0;
@@ -113,7 +113,8 @@ body {
 .hidden-page {
   display: block;
   margin: auto;
-  cursor: zoom-in;
+  /* cursor: zoom-in; */
+  cursor: pointer;
   background-color: hsl(0, 0%, 90%);
   transition: background-color 300ms;
   width: 738px;
@@ -131,3 +132,141 @@ body {
   margin: auto;
 }
 
+/* /hidden2-page */
+
+.hidden2{
+  background-color:#eef2f3;
+}
+
+.header{
+  background-color: #0066b2;
+}
+
+.nav-icons {
+  font-size: 16px;
+  gap: 8px;
+  color: white;
+}
+
+.nav-text {
+  font-family: roboto;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 8px;
+  color: black;
+  border-bottom: 2px solid transparent;
+}
+
+.nav-item.nav-link.nav-text:hover {
+  border-bottom: 2px solid white;
+}
+
+.profile-section {
+  background-color: #6CB4EE;
+  padding-left: 130px;
+  height: 320px;
+}
+.profile-img {
+  height: 210px;
+
+}
+.profile-text {
+  color: white;
+  max-width: 800px;
+}
+
+.description {
+  font-size: 14px;
+}
+
+span {
+  color: #0066b2;
+}
+.hello{
+  margin-bottom: 0px;
+  font-size: 16px;
+}
+
+.hireme-btn {
+  background-color: #0066b2;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.skills-title {
+font-weight: 700;
+}
+
+.card {
+  position: relative;
+  min-height: 316px;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-text {
+  padding-left: 50px;
+  padding-top: 5px;
+  line-height: 0.1rem;
+}
+
+.icon-div {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #6CB4EE;
+  position: absolute;
+  left: 163px;
+  bottom: 273px;
+  z-index: 1;
+}
+
+.icon-div-backend{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: #6CB4EE;
+  position: absolute;
+  left: 163px;
+  bottom: 278px;
+  z-index: 1;
+}
+
+.icon-code {
+  font-size: 40px;
+  position: absolute;
+  color: white;
+  text-align: center;
+  left: 20px;
+  top: 10px;
+}
+
+.check {
+  font-size: 18px;
+  color: #6CB4EE;
+  margin-right: 6px;
+}
+
+
+/* media-queries */
+@media (max-width: 768px) {
+  .profile-section {
+    height: 570px;
+    padding-left: 50px;
+  }
+  .card {
+    margin-top: 60px;
+  }
+  .icon-div {
+    left: 180px;
+  }
+  .icon-div-backend {
+    left: 180px;
+  }
+
+}
