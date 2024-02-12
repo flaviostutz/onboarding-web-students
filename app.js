@@ -1,9 +1,18 @@
-//page- Hidde2.html
-function redirectTo(){
-  window.location.href = "hidden2.html";
-}
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict';
 
-//page- hidden3.html
-function alertSubmit() {
-  alert("Almost there, but we have no server yet!")
-}
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation');
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms).forEach((form) => {
+    form.addEventListener('submit', (event) => {
+      if (!form.checkValidity()) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }, false);
+  });
+})();

@@ -306,3 +306,26 @@ label {
   font-size: 18px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.form-outline {
+  position: relative;
+}
+
+.form-outline input.form-control {
+  padding-top: 0.5rem; 
+  margin-top: 20px;
+}
+
+.form-outline label.form-label {
+  position: absolute;
+  top: 25px;
+  left: 5px;
+  pointer-events: none;
+  color: #495057;
+}
+
+.form-outline input.form-control:focus + label.form-label,
+.form-outline input.form-control:not(:placeholder-shown) + label.form-label {
+  top: -1.75rem;
+  border-color: #007bff;
+}
