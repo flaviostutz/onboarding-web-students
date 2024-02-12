@@ -270,3 +270,39 @@ font-weight: 700;
   }
 
 }
+
+
+/* /hidden3-page */
+.title-form {
+  color: #28B13E;
+}
+
+.input-form {
+  height: 40px;
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 18px;
+}
+.input-form::placeholder {
+  opacity: 0.4; 
+  padding-left: 10px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.checkbox-input {
+  cursor: pointer;
+}
+
+.submit-btn {
+  padding: 6px 22px;
+  border: none;
+  background-color: #2BA13E;
+  font-weight: 300;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
